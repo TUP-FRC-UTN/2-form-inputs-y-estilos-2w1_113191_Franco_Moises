@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Clase 2</title>
+</head>
+
+<body>
+    <h2>Encuesta de servicio</h2>
+    <form action="/" method="post">
+        Califica tu última experiencia con nuestro servicio: <br>
+        <input type="radio" name="valoracion" id="valoracion">😞
+        <input type="radio" name="valoracion" id="valoracion">🙁
+        <input type="radio" name="valoracion" id="valoracion">😐
+        <input type="radio" name="valoracion" id="valoracion">🙂
+        <input type="radio" name="valoracion" id="valoracion">😀
+        <br><br> ¿Que aspectos consideras que podriamos mejorar? <br>
+        <input type="checkbox" name="mejoras" id="mejoras">Tiempos de envío<br>
+        <input type="checkbox" name="mejoras" id="mejoras">Comida<br>
+        <input type="checkbox" name="mejoras" id="mejoras">Actitud del delivery<br>
+        <input type="checkbox" name="mejoras" id="mejoras">Atención del restaurante<br>
+        <input type="checkbox" name="mejoras" id="mejoras">Empaquetado<br>
+        <br> Comentarios adicionales: <br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribe aqui tu comentario..."></textarea>
+        <br><br> Fecha de la entrega: <br>
+        <input type="date" name="fecha-entrega" id="fecha-entrega" max="2022-03-23"> <br>
+        <br> Ingrese su e-mail:
+        <br>
+        <input type="text" name="e-mail" id="e-mail">
+        <br>
+        <input type="checkbox" name="recibir_notificaciones" id="recibir_notificaciones" checked> quiero recibir avisos para participar de las proximas encuestas
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
